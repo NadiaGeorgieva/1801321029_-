@@ -1,0 +1,67 @@
+package com.system.classes;
+
+import java.util.List;
+
+public class Student extends User {
+	
+    public long facultyNumber;
+    public String fullName;
+    public Integer course;
+    public long egn;
+    public long phone;
+    public List<Discipline> disciplineStudent;
+    
+    /**
+     * Default constructor
+     * @param phone2 
+     * @param egn2 
+     * @param course2 
+     * @param name 
+     * @param fn 
+     */
+    public Student(long fn, String name, String course2, long egn2, long phone2) {
+    }
+
+	public long getFacultyNumber() {
+		return facultyNumber;
+	}
+
+	public void setFacultyNumber(long facultyNumber) {
+		this.facultyNumber = facultyNumber;
+	}
+
+	public String getFullName() {
+		return fullName;
+	}
+
+	public void setFullName(String fullName) {
+		this.fullName = fullName;
+	}
+
+	public Integer getCourse() {
+		return course;
+	}
+
+	public void setCourse(Integer course) {
+		this.course = course;
+	}
+
+	public long getEgn() {
+		return egn;
+	}
+
+	public void setEgn(long egn) {
+		this.egn = egn;
+	}
+
+	public long getPhone() {
+		return phone;
+	}
+
+	public void setPhone(long phone) {
+		this.phone = phone;
+	}
+
+    
+
+}

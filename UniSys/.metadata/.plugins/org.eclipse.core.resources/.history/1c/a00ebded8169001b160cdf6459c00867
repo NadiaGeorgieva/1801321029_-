@@ -1,0 +1,34 @@
+package com.system.cstarter;
+
+public class EntryGradeSteps{
+	@Given("^Потребителя отваря екран за добавяне на оценка на студент$")
+	public void потребителя_отваря_екран_за_добавяне_на_оценка_на_студент() throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new PendingException();
+	}
+
+	@When("^Въвежда име на дисциплината \"([^\"]*)\"$")
+	public void въвежда_име_на_дисциплината(String arg1) throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new PendingException();
+	}
+
+	@When("^Въвежда оценка на студента \"([^\"]*)\"$")
+	public void въвежда_оценка_на_студента(String arg1) throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new PendingException();
+	}
+
+	@When("^Натиска бутона за добавяне на оценка$")
+	public void натиска_бутона_за_добавяне_на_оценка() throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new PendingException();
+	}
+
+	@Then("^Вижда  съобщение \"([^\"]*)\"$")
+	public void вижда_съобщение(String arg1) throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new PendingException();
+	}
+
+}

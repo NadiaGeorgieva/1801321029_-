@@ -1,0 +1,25 @@
+package com.system.classes;
+
+import java.util.List;
+
+public class Teacher extends User {
+ 
+	public String fullName;
+    public String email;
+    public List<Discipline> disciplineTeacher;
+    
+    /**
+     * Default constructor
+     */
+    public Teacher() {
+    }
+
+    public void get() {
+        // TODO implement here
+    }
+
+    public void set() {
+        // TODO implement here
+    }
+
+}

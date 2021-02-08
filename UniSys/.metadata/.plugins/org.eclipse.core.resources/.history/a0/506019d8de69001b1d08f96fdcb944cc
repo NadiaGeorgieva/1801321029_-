@@ -1,0 +1,25 @@
+package com.system.classes;
+
+
+import java.util.List;
+
+public class Profile {
+	
+    public List<Teacher> teacherProfile;
+    public List<Student> studentProfile;
+    
+    /**
+     * Default constructor
+     */
+    public Profile() {
+    }
+
+    public void get() {
+        // TODO implement here
+    }
+
+    public void set() {
+        // TODO implement here
+    }
+
+}

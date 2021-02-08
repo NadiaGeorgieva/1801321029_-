@@ -1,0 +1,10 @@
+package com.system.services;
+
+public class LogInService {
+
+	public static String LogIn(String username, String password) {
+		
+		return null;
+	}
+
+}

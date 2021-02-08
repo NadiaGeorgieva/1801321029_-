@@ -1,0 +1,28 @@
+package com.system.classes;
+
+import java.util.List;
+
+public class Student extends User {
+	
+    public long facultyNumber;
+    public String fullName;
+    public Integer course;
+    public long egn;
+    public long phone;
+    public List<Discipline> disciplineStudent;
+    
+    /**
+     * Default constructor
+     */
+    public Student() {
+    }
+
+    public void get() {
+        // TODO implement here
+    }
+
+    public void set() {
+        // TODO implement here
+    }
+
+}

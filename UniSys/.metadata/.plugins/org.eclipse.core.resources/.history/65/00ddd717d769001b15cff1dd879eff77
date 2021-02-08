@@ -1,0 +1,10 @@
+package com.system.models;
+
+public class AddTeacherDisciplineModel {
+
+	public void navigateToLogInScreen() {
+		
+		
+	}
+
+}

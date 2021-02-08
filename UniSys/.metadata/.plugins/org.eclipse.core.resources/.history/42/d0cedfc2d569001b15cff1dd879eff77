@@ -1,0 +1,17 @@
+package com.system.models;
+
+public class UpdateInfoModel {
+
+	public String phone;
+
+	public void navigateToAddScreen() {
+		
+		
+	}
+
+	public void setPhone(String phone) {
+	this.phone=phone;
+		
+	}
+
+}

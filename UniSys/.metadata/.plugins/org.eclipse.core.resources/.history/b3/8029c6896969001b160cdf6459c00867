@@ -1,0 +1,11 @@
+package com.system.models;
+
+public class AddStudentModel {
+
+	public void navigateAddScreen() {
+		System.out.print("Навигирано е до страницата за вход в системата.");
+		
+		
+	}
+
+}

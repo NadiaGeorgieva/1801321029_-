@@ -1,0 +1,32 @@
+package com.system.services;
+
+import java.util.ArrayList;
+import java.util.List;
+
+
+import com.system.classes.Discipline;
+
+
+public class AddStudentGradeService {
+
+	public static String add(String discipline, Integer grade) {
+		List<Discipline> list=getDisciplines();
+		
+		if(discipline==null || "".equals(discipline) || grade==null ||"".equals(grade)) {
+			return "Всички полета с * са задължителни";
+		}
+		
+		final Discipline newGrade=new Discipline(discipline,  grade);
+		list.add(newGrade);
+
+		return list.contains(newGrade)?"Успешно добавяне":"Неуспешно добавяне";
+		
+	}
+
+	public static List<Discipline>getDisciplines(){
+		final Discipline newDiscipline=new Discipline("sio",5);
+		ArrayList<Discipline> list=new ArrayList<Discipline>();
+		list.add(newDiscipline);
+		return list;
+	}
+}

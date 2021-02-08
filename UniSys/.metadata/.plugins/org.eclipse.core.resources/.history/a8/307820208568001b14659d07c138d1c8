@@ -1,0 +1,40 @@
+
+import java.util.*;
+
+/**
+ * 
+ */
+public class Profile {
+
+    /**
+     * Default constructor
+     */
+    public Profile() {
+    }
+
+    /**
+     * 
+     */
+    public List<Teacher> teacherProfile;
+
+    /**
+     * 
+     */
+    public List<Student> studentProfile;
+
+
+    /**
+     * 
+     */
+    public void get() {
+        // TODO implement here
+    }
+
+    /**
+     * 
+     */
+    public void set() {
+        // TODO implement here
+    }
+
+}

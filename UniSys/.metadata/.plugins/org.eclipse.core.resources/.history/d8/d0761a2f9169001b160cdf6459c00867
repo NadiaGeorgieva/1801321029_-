@@ -1,0 +1,11 @@
+package com.system.models;
+
+public class EntryGradeModel {
+
+	public void navigateToScreen() {
+		System.out.print("Навигирано е до страницата за добавяне на оценка за съответната дисциплина на студента.");
+		
+	}
+	
+
+}

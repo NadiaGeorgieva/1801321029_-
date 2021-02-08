@@ -1,0 +1,47 @@
+package com.system.classes;
+
+import java.util.List;
+public class DegreeInfo extends Report {
+
+    /**
+     * Default constructor
+     */
+    public DegreeInfo() {
+    }
+
+    /**
+     * 
+     */
+    public String name;
+
+    /**
+     * 
+     */
+    public Integer period;
+
+    /**
+     * 
+     */
+    public String semesters3;
+
+    /**
+     * 
+     */
+    public List<Discipline> disciplineDegree;
+
+
+    /**
+     * 
+     */
+    public void get() {
+        // TODO implement here
+    }
+
+    /**
+     * 
+     */
+    public void set() {
+        // TODO implement here
+    }
+
+}

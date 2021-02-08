@@ -1,0 +1,56 @@
+package com.system.cstarter;
+
+import com.system.models.AddStudentModel;
+
+import cucumber.api.java.en.And;
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.Then;
+import cucumber.api.java.en.When;
+
+public class AddStudentSteps {
+	
+	AddStudentModel m2=new AddStudentModel();
+	
+	@Given("^Потребителя отваря екран за добавяне на студент$")
+	public void OpenScreen() throws Throwable {
+	   m2.navigateToAddScreen();
+	}
+
+	@When("^Въвежда фн \"([^\"]*)\"$")
+	public void въвежда_фн(String arg1) throws Throwable {
+	    
+	}
+
+	@And("^Въвежда име на студента \"([^\"]*)\"$")
+	public void въвежда_име_на_студента(String arg1) throws Throwable {
+	   
+	}
+
+	@And("^Въвежда курс \"([^\"]*)\"$")
+	public void въвежда_курс(String arg1) throws Throwable {
+	   
+	}
+
+	@And("^Въвежда егн \"([^\"]*)\"$")
+	public void въвежда_егн(String arg1) throws Throwable {
+	
+	}
+
+	@And("^Въвежда телефон \"([^\"]*)\"$")
+	public void въвежда_телефон(String arg1) throws Throwable {
+	  
+	}
+
+	@And("^Натиска бутона за добавяне на студент$")
+	public void натиска_бутона_за_добавяне_на_студент() throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new PendingException();
+	}
+
+	@Then("^Вижда съобщение  \"([^\"]*)\"$")
+	public void вижда_съобщение(String arg1) throws Throwable {
+	   
+	}
+
+	
+}

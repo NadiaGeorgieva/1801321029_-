@@ -1,0 +1,35 @@
+
+import java.util.*;
+
+/**
+ * 
+ */
+public class Inspector extends User {
+
+    /**
+     * Default constructor
+     */
+    public Inspector() {
+    }
+
+    /**
+     * 
+     */
+    public List<Profile> profile;
+
+
+    /**
+     * 
+     */
+    public void get() {
+        // TODO implement here
+    }
+
+    /**
+     * 
+     */
+    public void set() {
+        // TODO implement here
+    }
+
+}

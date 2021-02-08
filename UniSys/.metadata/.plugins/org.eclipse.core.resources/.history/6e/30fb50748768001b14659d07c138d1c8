@@ -1,0 +1,17 @@
+package com.system.models;
+
+public class SystemLogModel {
+
+	public String username;
+
+	public void navigateToLogInScreen() {
+		System.out.print("Навигирано е до страницата за вход в системата.");
+		
+	}
+
+	public void setUsername(String username) {
+	this.username=username;
+		
+	}
+
+}

@@ -1,0 +1,45 @@
+
+import java.util.*;
+
+/**
+ * 
+ */
+public class Teacher extends User {
+
+    /**
+     * Default constructor
+     */
+    public Teacher() {
+    }
+
+    /**
+     * 
+     */
+    public String fullName;
+
+    /**
+     * 
+     */
+    public String email;
+
+    /**
+     * 
+     */
+    public List<Discipline> disciplineTeacher;
+
+
+    /**
+     * 
+     */
+    public void get() {
+        // TODO implement here
+    }
+
+    /**
+     * 
+     */
+    public void set() {
+        // TODO implement here
+    }
+
+}

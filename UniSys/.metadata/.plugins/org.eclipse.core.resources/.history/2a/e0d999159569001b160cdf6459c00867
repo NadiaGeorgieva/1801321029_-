@@ -1,0 +1,26 @@
+package com.system.classes;
+
+import java.util.Date;
+
+public class Discipline {
+
+    public Integer number;
+    public String name;
+    public Integer grade;
+    public Date start_Date;
+
+    /**
+     * Default constructor
+     */
+    public Discipline() {
+    }
+    
+    public void get() {
+    	 // TODO implement here
+    }
+
+    public void set() {
+    	 // TODO implement here
+    }
+
+}

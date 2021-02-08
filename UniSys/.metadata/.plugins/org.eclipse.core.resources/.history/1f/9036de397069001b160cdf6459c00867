@@ -1,0 +1,25 @@
+package com.system.services;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import com.system.classes.Student;
+
+
+public class AddStudentService {
+
+	public static String add(Long fn, String name, String course, Long egn, Long phone) {
+		final Student newStudent=new Student(fn,name,course,egn,phone);
+		List<Student> list=getStudents();
+		list.add(newStudent);
+
+		return list.contains(newStudent)?"Успешно добавяне":"";
+	}
+
+	public static List<Student>getStudents(){
+		final Student newStudent=new Student(1801321029,"Надя Г.","зимен",5,0896405068);
+		ArrayList<Student> list=new ArrayList<Student>();
+		list.add(newStudent);
+		return list;
+	}
+}

@@ -1,0 +1,19 @@
+package com.system.services;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import com.system.classes.User;
+
+public class AddStudentService {
+
+	public static String add(Long fn, String name, String course, Long egn, Long phone) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public static List<User>getUsers(){
+		ArrayList<User> users=new ArrayList<User>();
+		return users;
+	}
+}

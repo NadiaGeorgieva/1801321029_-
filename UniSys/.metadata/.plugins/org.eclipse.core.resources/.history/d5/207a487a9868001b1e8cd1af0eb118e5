@@ -1,0 +1,38 @@
+#Author: your.email@your.domain.com
+#Keywords Summary :
+#Feature: List of scenarios.
+#Scenario: Business rule through list of steps with arguments.
+#Given: Some precondition step
+#When: Some key actions
+#Then: To observe outcomes or validation
+#And,But: To enumerate more Given,When,Then steps
+#Scenario Outline: List of steps for data-driven as an Examples and <placeholder>
+#Examples: Container for s table
+#Background: List of steps run before each of the scenarios
+#""" (Doc Strings)
+#| (Data Tables)
+#@ (Tags/Labels):To group Scenarios
+#<> (placeholder)
+#""
+## (Comments)
+#Sample Feature Definition Template
+@tag
+Feature: 	Проверка за вход в системата
+  I want to use this template for my feature file
+
+  @tag1
+  Scenario: Вход в системата с валидни потребителски данни
+    Given Потребителя отваря екран за вход в системата
+    When  Въвежда потребителско име  "Uni"
+    And   Въвежда парола "Pass"
+    And   Натиска бутона за вход
+    Then  Вижда съобщение "ОК"
+   
+@tag2
+  Scenario: Вход в системата с невалидни потребителски данни
+    Given Потребителя отваря екран за вход в системата
+    When  Въвежда потребителско име  "Uni1"
+    And   Въвежда парола "Pass1"
+    And   Натиска бутона за вход
+    Then  Вижда съобщение "Потребител с тези данни не съществува!"
+   

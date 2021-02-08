@@ -1,0 +1,32 @@
+package com.system.cstarter;
+
+import com.system.models.EntryGradeModel;
+
+public class EntryGradeSteps{
+	EntryGradeModel m3=new EntryGradeModel();
+	@Given("^Потребителя отваря екран за добавяне на оценка на студент$")
+	public void OpenScreen() throws Throwable {
+	  m3.navigateToScreen();
+	}
+
+	@When("^Въвежда име на дисциплината \"([^\"]*)\"$")
+	public void setDisciplineName(String arg1) throws Throwable {
+	  
+	}
+
+	@When("^Въвежда оценка на студента \"([^\"]*)\"$")
+	public void setGrade(String arg1) throws Throwable {
+	    
+	}
+
+	@When("^Натиска бутона за добавяне на оценка$")
+	public void clickButtonAddGrade() throws Throwable {
+	    
+	}
+
+	@Then("^Вижда  съобщение \"([^\"]*)\"$")
+	public void getMessage(String message) throws Throwable {
+	  
+	}
+
+}

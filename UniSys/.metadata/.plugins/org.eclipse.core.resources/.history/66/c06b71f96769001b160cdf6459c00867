@@ -1,0 +1,10 @@
+package com.system.models;
+
+public class AddStudentModel {
+
+	public void navigateToLogInScreen() {
+		System.out.print("Навигирано е до страницата за добавяне на студент.");
+		
+	}
+
+}

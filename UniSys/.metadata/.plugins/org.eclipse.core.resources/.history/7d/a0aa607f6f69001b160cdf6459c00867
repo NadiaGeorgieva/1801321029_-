@@ -1,0 +1,23 @@
+package com.system.services;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import com.system.classes.Student;
+
+
+public class AddStudentService {
+
+	public static String add(Long fn, String name, String course, Long egn, Long phone) {
+		final Student newStudent=new Student(fn,name,course,egn,phone);
+		List<Student> list=getStudents();
+		list.add(newStudent);
+
+		return list.contains(newStudent)?"":"";
+	}
+
+	public static List<Student>getStudents(){
+		ArrayList<Student> students=new ArrayList<Student>();
+		return students;
+	}
+}

@@ -1,0 +1,30 @@
+package com.system.services;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.function.Predicate;
+
+import com.system.classes.User;
+
+public class LogInService {
+
+	public static String LogIn(final String username, final String password) {
+		List<User> users=getUsers();
+		final boolean isUserMatch=users.stream()
+				.anyMatch(new Predicate<User>() {
+					public boolean test(User users) {
+						return username.equals(users.getUsername())&& password.equals(users.getPassword());
+					}
+				});
+		return isUserMatch ? "" : "";
+	}
+
+	private static List<User> getUsers(){
+		User user=new User();
+		user.setUsername("Uni");
+		user.setPassword("Pass");
+		final List<User> result=new ArrayList<User>();
+		result.add(user);
+		return result;
+	}
+}

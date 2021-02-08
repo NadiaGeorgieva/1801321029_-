@@ -1,0 +1,50 @@
+package com.system.models;
+
+public class AddStudentModel {
+
+	public Long fn;
+	public String name;
+	public String course;
+	public Long egn;
+	public Long phone;
+
+	public void navigateToAddScreen() {
+		System.out.print("Навигирано е до страницата за вход в системата.");
+		
+		
+	}
+
+	public void setFn(Long fn) {
+		this.fn=fn;
+	}
+
+	public void setStudentName(String name) {
+		this.name=name;
+	}
+
+	public void setCourse(String course) {
+		this.course=course;
+		
+	}
+
+	public void setEgn(Long egn) {
+		this.egn=egn;
+	}
+
+	public void setPhone(Long phone) {
+		this.phone=phone;
+		
+	}
+
+	public void clickAddButton() {
+	
+		
+	}
+
+	public Object getAddMessage() {
+		
+	}
+	
+	
+
+}

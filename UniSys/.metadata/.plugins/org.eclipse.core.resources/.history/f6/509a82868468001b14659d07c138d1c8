@@ -1,0 +1,18 @@
+package com.system.classes;
+
+import java.util.Date;
+
+public class Gui {
+
+    public Gui() {
+    }
+
+    public void read() {
+      
+    }
+
+    public void show() {
+   
+    }
+
+}

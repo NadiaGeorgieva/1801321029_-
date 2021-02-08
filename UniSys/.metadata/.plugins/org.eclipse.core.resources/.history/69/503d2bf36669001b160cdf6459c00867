@@ -1,0 +1,44 @@
+package com.system.cstarter;
+
+import cucumber.api.java.en.And;
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.Then;
+import cucumber.api.java.en.When;
+
+public class AddStudentSteps{	
+
+@Given("^Потребителя отваря екран за добавяне на студент$")
+public void OpenScreen() throws Throwable {
+   
+}
+
+@When("^Въвежда фн$")
+public void setFf() throws Throwable {
+   
+}
+
+@And("^Въвежда име на студента$")
+public void setStudentName() throws Throwable {
+ 
+}
+
+@And("^Въвежда курс$")
+public void setCourse() throws Throwable {
+   
+}
+
+@And("^Въвежда егн$")
+public void въвежда_егн() throws Throwable {
+ 
+
+@And("^Въвежда телефон$")
+public void setPhone() throws Throwable {
+ 
+}
+
+@Then("^Натиска бутона за добавяне$")
+public void clickButtonAdd() throws Throwable {
+   
+}
+
+}

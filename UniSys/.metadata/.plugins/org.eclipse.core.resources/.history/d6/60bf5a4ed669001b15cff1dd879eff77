@@ -1,0 +1,17 @@
+package com.system.model;
+
+public class RemoveDisciplineModel {
+
+	public String number;
+
+	public void navigateToAddScreen() {
+		
+		
+	}
+
+	public void setNumber(String number) {
+		this.number=number;
+		
+	}
+
+}

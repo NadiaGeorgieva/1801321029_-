@@ -1,0 +1,10 @@
+package com.system.services;
+
+public class AddStudentGradeService {
+
+	public static String add(String discipline, Integer grade) {
+		
+		return null;
+	}
+
+}

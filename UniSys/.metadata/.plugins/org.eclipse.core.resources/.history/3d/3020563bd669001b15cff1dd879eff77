@@ -1,0 +1,31 @@
+package com.system.cstarter;
+
+import com.system.model.RemoveDisciplineModel;
+
+import cucumber.api.java.en.And;
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.Then;
+import cucumber.api.java.en.When;
+
+public class RemoveDisciplineSteps{
+	RemoveDisciplineModel m4=new RemoveDisciplineModel();
+	@Given("^Потребителя отваря екран с дисциплините$")
+	public void OpenScreen() throws Throwable {
+	  
+	}
+
+	@When("^Избира номер на дисциплина \"([^\"]*)\"$")
+	public void setDisciplineNumber(String number) throws Throwable {
+	    
+	}
+
+	@And("^Натиска бутона за изтриване$")
+	public void clickButtonDelete() throws Throwable {
+	   
+	}
+
+	@Then("^Вижда съобщение за \"([^\"]*)\"$")
+	public void returnMessage(String message) throws Throwable {
+	   
+	}
+}

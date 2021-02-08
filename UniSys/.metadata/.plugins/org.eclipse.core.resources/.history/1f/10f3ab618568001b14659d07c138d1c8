@@ -1,0 +1,39 @@
+
+import java.util.*;
+
+/**
+ * 
+ */
+public class Report {
+
+    /**
+     * Default constructor
+     */
+    public Report() {
+    }
+
+    /**
+     * 
+     */
+    public List<DegreeInfo> degreeInfo;
+
+    /**
+     * 
+     */
+    public List<Student> student;
+
+    /**
+     * 
+     */
+    public void get() {
+        // TODO implement here
+    }
+
+    /**
+     * 
+     */
+    public void set() {
+        // TODO implement here
+    }
+
+}

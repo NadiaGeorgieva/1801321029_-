@@ -1,0 +1,31 @@
+package com.system.cstarter;
+
+@Given("^Потребителя отваря екран за вход в системата\\.$")
+public void потребителя_отваря_екран_за_вход_в_системата() throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+    throw new PendingException();
+}
+
+@When("^Въвежда потребителско име  \"([^\"]*)\"\\.$")
+public void въвежда_потребителско_име(String arg1) throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+    throw new PendingException();
+}
+
+@And("^Въвежда парола \"([^\"]*)\"\\.$")
+public void въвежда_парола(String arg1) throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+    throw new PendingException();
+}
+
+@And("^Натиска бутона за вход\\.$")
+public void натиска_бутона_за_вход() throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+    throw new PendingException();
+}
+
+@Then("^Вижда съобщение за успех\\.$")
+public void вижда_съобщение_за_успех() throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+    throw new PendingException();
+}

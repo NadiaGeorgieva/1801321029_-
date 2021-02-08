@@ -1,0 +1,24 @@
+package com.system.classes;
+
+import java.util.List;
+
+public class Report {
+  
+	public List<DegreeInfo> degreeInfo;
+    public List<Student> student;
+    
+    /**
+     * Default constructor
+     */
+    public Report() {
+    }
+
+    public void get() {
+        // TODO implement here
+    }
+
+    public void set() {
+        // TODO implement here
+    }
+
+}

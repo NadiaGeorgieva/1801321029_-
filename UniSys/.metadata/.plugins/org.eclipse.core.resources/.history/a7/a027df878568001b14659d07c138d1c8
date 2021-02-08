@@ -1,0 +1,60 @@
+
+import java.util.*;
+
+/**
+ * 
+ */
+public class Student extends User {
+
+    /**
+     * Default constructor
+     */
+    public Student() {
+    }
+
+    /**
+     * 
+     */
+    public long facultyNumber;
+
+    /**
+     * 
+     */
+    public String fullName;
+
+    /**
+     * 
+     */
+    public Integer course;
+
+    /**
+     * 
+     */
+    public long egn;
+
+    /**
+     * 
+     */
+    public long phone;
+
+    /**
+     * 
+     */
+    public List<Discipline> disciplineStudent;
+
+
+    /**
+     * 
+     */
+    public void get() {
+        // TODO implement here
+    }
+
+    /**
+     * 
+     */
+    public void set() {
+        // TODO implement here
+    }
+
+}

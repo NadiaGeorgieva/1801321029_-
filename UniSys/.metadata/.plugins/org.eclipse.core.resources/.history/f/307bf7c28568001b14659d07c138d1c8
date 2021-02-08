@@ -1,0 +1,39 @@
+
+import java.util.*;
+
+/**
+ * 
+ */
+public class User {
+
+    /**
+     * Default constructor
+     */
+    public User() {
+    }
+
+    /**
+     * 
+     */
+    public String username;
+
+    /**
+     * 
+     */
+    public String password;
+
+    /**
+     * 
+     */
+    public void get() {
+        // TODO implement here
+    }
+
+    /**
+     * 
+     */
+    public void set() {
+        // TODO implement here
+    }
+
+}

@@ -1,0 +1,10 @@
+package com.system.models;
+
+public class UpdateInfoModel {
+
+	public void navigateToAddScreen() {
+		
+		
+	}
+
+}

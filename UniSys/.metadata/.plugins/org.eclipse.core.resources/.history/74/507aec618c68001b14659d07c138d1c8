@@ -1,0 +1,26 @@
+package com.system.services;
+
+
+import java.util.ArrayList;
+import java.util.List;
+
+import com.system.classes.User;
+
+public class LogInService {
+
+	public static String LogIn(String username, String password) {
+		List<User> user=getUsers();
+		final boolean isUserMatch=user.stream()
+				.anyMatch(user -> username.equals(user.getUsername())&& password.equals(user.getPassword()));
+		return isUserMatch ? "OK" : "";
+	}
+
+	private static List<User> getUsers(){
+		User user=new User();
+		user.setUsername("Uni");
+		user.setPassword("Pass");
+		final List<User> result=new ArrayList<>();
+		result.add(user);
+		return result;
+	}
+}

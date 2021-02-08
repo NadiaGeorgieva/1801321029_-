@@ -1,0 +1,10 @@
+package com.system.services;
+
+public class AddStudentService {
+
+	public static String add(Long fn, String name, String course, Long egn, Long phone) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

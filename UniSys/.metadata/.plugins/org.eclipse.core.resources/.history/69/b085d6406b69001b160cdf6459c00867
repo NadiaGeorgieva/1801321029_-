@@ -1,0 +1,55 @@
+package com.system.cstarter;
+
+import com.system.models.AddStudentModel;
+
+import cucumber.api.java.en.And;
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.Then;
+import cucumber.api.java.en.When;
+
+public class AddStudentSteps {
+	
+	AddStudentModel m2=new AddStudentModel();
+	
+	@Given("^Потребителя отваря екран за добавяне на студент$")
+	public void OpenScreen() throws Throwable {
+	   m2.navigateToAddScreen();
+	}
+
+	@When("^Въвежда фн \"([^\"]*)\"$")
+	public void setFn(Long fn) throws Throwable {
+	    
+	}
+
+	@And("^Въвежда име на студента \"([^\"]*)\"$")
+	public void setStudentName(String name) throws Throwable {
+	   
+	}
+
+	@And("^Въвежда курс \"([^\"]*)\"$")
+	public void setCourse(String course) throws Throwable {
+	   
+	}
+
+	@And("^Въвежда егн \"([^\"]*)\"$")
+	public void setEgn(Long egn) throws Throwable {
+	
+	}
+
+	@And("^Въвежда телефон \"([^\"]*)\"$")
+	public void setPhone(Long phone) throws Throwable {
+	  
+	}
+
+	@And("^Натиска бутона за добавяне на студент$")
+	public void clickButtonAdd() throws Throwable {
+	   
+	}
+
+	@Then("^Вижда съобщение  \"([^\"]*)\"$")
+	public void returnMessage(String message) throws Throwable {
+	   
+	}
+
+	
+}
